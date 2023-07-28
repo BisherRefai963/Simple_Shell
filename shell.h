@@ -154,11 +154,11 @@ char **strtow(char *, char);
 
 /* toem_realloc.c */
 char *_memset(char *, char, unsigned int);
-void ffree(char **);
+void free_all(char **);
 void *_realloc(void *, unsigned int, unsigned int);
 
 /* toem_memory.c */
-int bfree(void **);
+int p_free(void **p);
 
 /* toem bichr_atoi.c */
 int interaction(inforifai_t *);
